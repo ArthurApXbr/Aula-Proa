@@ -1,6 +1,6 @@
 function abrir_modal(){
     let modal = document.querySelector(".modal");
-    let janela_escura = document.querySelector(".janela-escura");
+    let janela_escura = document.querySelector(".janela_escura");
     let imagem = document.querySelector(".imagem");
 
     modal.style.visibility="visible";
