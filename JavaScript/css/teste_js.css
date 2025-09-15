@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: 100px;
+    margin: 30px;
+}
+
+div{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    border: 5px double;
+    font-size: 16px;
+    text-align: justify;
+    top: 200px;
+    left: 500px;
+    visibility: hidden; /* ocultando as divs */
+}
+
+div img{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+#ferrari{
+    background-color: silver;
+    color: yellow;
+    border-color: yellow;
+}
+
+#subaru{
+    background-color: blue;
+    color: red;
+    border-color: violet;
+}
+
+#cybertruck{
+    background-color: fuchsia;
+    color: black;
+    border-color: aqua;
+}

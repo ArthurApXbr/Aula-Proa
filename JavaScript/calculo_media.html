@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando a media das notas</title>
+</head>
+<body>
+    <h1>Calculo da media das notas</h1>
+
+    <script>
+
+        let numero1 = parseFloat(prompt("numero 1"))
+        let numero2 = parseFloat(prompt("numero 2"))
+        let numero3 = parseFloat(prompt("numero 3"))
+        let numero4 = parseFloat(prompt("numero 4"))
+
+        let media = (numero1 + numero2 + numero3 + numero4)/4
+
+        document.write("A media é: " + media + "<br>")
+
+        if(media >= 6){
+            document.write("Você está aprovado! Parabéns")
+        }else if(media >= 5){
+            document.write("voce esta de recuperação")
+        }else{
+            document.write("você está reprovado")
+        }
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
